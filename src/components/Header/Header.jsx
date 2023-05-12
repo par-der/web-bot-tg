@@ -9,7 +9,7 @@ const Header = () => {
     return (
         <div className={'header'}>
             <Button onClick={onClose}>Закрыть</Button>
-            <Link to="/form">
+            <Link to="./Form/Form">
                 <button type="button">
                     Click Me!
                 </button>
