@@ -9,11 +9,11 @@ const Header = () => {
     return (
         <div className={'header'}>
             <Button onClick={onClose}>Закрыть</Button>
-            <Link to="./Form/Form">
+            {/* <Link to="./Form/Form">
                 <button type="button">
                     Click Me!
                 </button>
-            </Link>
+            </Link> */}
             <span className={'username'}>
                 {user?.username}
             </span>
